@@ -1,0 +1,10 @@
+{
+  "categories":[
+    {"id":"entertainment","name":"Fun & Entertainment","places":[
+      {"name":"Cypress Pointe Pier","address":"Boardwalk","community":"Cypress Pointe","slurl":"#","image":"images/pier.jpg","description":"Waterfront attractions and events."}
+    ]},
+    {"id":"restaurants","name":"Restaurants","places":[
+      {"name":"Valley Bistro","address":"45 Main Street","community":"Grimlocke","slurl":"#","image":"images/bistro.jpg","description":"Local dining destination."}
+    ]}
+  ]
+}
