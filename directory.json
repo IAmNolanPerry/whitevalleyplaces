@@ -1,10 +1,180 @@
 {
-  "categories":[
-    {"id":"entertainment","name":"Fun & Entertainment","places":[
-      {"name":"Cypress Pointe Pier","address":"Boardwalk","community":"Cypress Pointe","slurl":"#","image":"images/pier.jpg","description":"Waterfront attractions and events."}
-    ]},
-    {"id":"restaurants","name":"Restaurants","places":[
-      {"name":"Valley Bistro","address":"45 Main Street","community":"Grimlocke","slurl":"#","image":"images/bistro.jpg","description":"Local dining destination."}
-    ]}
-  ]
+"categories": [
+{
+"id": "entertainment",
+"name": "Fun & Entertainment",
+"icon": "fa-gamepad",
+"color": "#3B82F6",
+"places": [
+{
+"id": "cypress-pier",
+"name": "Cypress Pointe Pier",
+"featured": true,
+"address": "101 Boardwalk Drive",
+"community": "Cypress Pointe",
+"slurl": "https://maps.secondlife.com/secondlife/Cypress%20Pointe/128/128/25",
+"website": "",
+"discord": "",
+"phone": "",
+"image": "images/cypress-pier.jpg",
+"gallery": [
+"images/cypress-pier.jpg",
+"images/cypress-pier-2.jpg"
+],
+"tags": [
+"Pier",
+"Fishing",
+"Events",
+"Tourist Attraction"
+],
+"description": "A lively waterfront destination featuring seasonal events, fishing, sightseeing, and stunning coastal views."
+},
+{
+"id": "grimlocke-cinema",
+"name": "Grimlocke Cinema",
+"featured": false,
+"address": "25 Main Street",
+"community": "Grimlocke",
+"slurl": "https://maps.secondlife.com/",
+"website": "",
+"discord": "",
+"phone": "",
+"image": "images/cinema.jpg",
+"gallery": [],
+"tags": [
+"Movies",
+"Entertainment"
+],
+"description": "Historic downtown movie theater showing classic and modern films."
+}
+]
+},
+{
+"id": "restaurants",
+"name": "Restaurants",
+"icon": "fa-utensils",
+"color": "#10B981",
+"places": [
+{
+"id": "valley-bistro",
+"name": "The Valley Bistro",
+"featured": true,
+"address": "45 Main Street",
+"community": "Grimlocke",
+"slurl": "https://maps.secondlife.com/",
+"website": "",
+"discord": "",
+"phone": "",
+"image": "images/valley-bistro.jpg",
+"gallery": [],
+"tags": [
+"Restaurant",
+"Downtown",
+"Coffee"
+],
+"description": "A cozy downtown restaurant offering fresh meals, coffee, and a welcoming atmosphere."
+}
+]
+},
+{
+"id": "stores",
+"name": "Stores",
+"icon": "fa-shopping-bag",
+"color": "#A855F7",
+"places": [
+{
+"id": "ponderosa-outfitters",
+"name": "Ponderosa Outfitters",
+"featured": false,
+"address": "210 Timberline Way",
+"community": "Cypress Pointe",
+"slurl": "https://maps.secondlife.com/",
+"website": "",
+"discord": "",
+"phone": "",
+"image": "images/ponderosa.jpg",
+"gallery": [],
+"tags": [
+"Camping",
+"Outdoors",
+"Retail"
+],
+"description": "Your one-stop shop for outdoor gear, camping supplies, and adventure equipment."
+}
+]
+},
+{
+"id": "services",
+"name": "Public Services",
+"icon": "fa-shield-halved",
+"color": "#3B82F6",
+"places": [
+{
+"id": "wvso",
+"name": "White Valley Sheriff's Office",
+"featured": true,
+"address": "100 Justice Way",
+"community": "Grimlocke",
+"slurl": "https://maps.secondlife.com/",
+"website": "https://townofgrimlocke.com/applications/wvso",
+"discord": "",
+"phone": "911 | Non-Emergency: 555-0100",
+"image": "images/wvso.jpg",
+"gallery": [],
+"tags": [
+"Law Enforcement",
+"Government"
+],
+"description": "Serving and protecting the residents of White Valley County."
+},
+{
+    
+"id": "wvmc",
+"name": "White Valley Medical Center",
+"featured": true,
+"address": "500 Health Drive",
+"community": "White Valley",
+"slurl": "https://maps.secondlife.com/",
+"website": "https://townofgrimlocke.com/applications/wvmc",
+"discord": "",
+"phone": "911",
+"image": "images/wvmc.jpg",
+"gallery": [],
+"tags": [
+"Hospital",
+"EMS",
+"Healthcare"
+],
+"description": "Regional medical center providing emergency and inpatient care."
+}
+]
+},
+{
+"id": "outdoors",
+"name": "Outdoors",
+"icon": "fa-tree",
+"color": "#22C55E",
+"places": [
+{
+"id": "eagle-peak",
+"name": "Eagle Peak Trailhead",
+"featured": false,
+"address": "Eagle Peak Road",
+"community": "White Valley Wilderness",
+"slurl": "https://maps.secondlife.com/",
+"website": "",
+"discord": "",
+"phone": "",
+"image": "images/eagle-peak.jpg",
+"gallery": [],
+"tags": [
+"Hiking",
+"Nature",
+"Photography"
+],
+"description": "Hiking trails, scenic views, and a great destination for outdoor enthusiasts."
+}
+]
+}
+]
 }
