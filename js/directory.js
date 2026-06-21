@@ -24,7 +24,7 @@ function render() {
 
         if (current != 'all' && current != c.id) return;
 
-        let h = `<h2 class="category-title"><i class="fas ${c.icon}"></i>${c.name}</h2>`;
+        let h = `<h2 class="category-title"><i class="fas ${c.icon}"></i>  ${c.name}</h2>`;
 
         c.places.forEach(p => h += `
             <div class="place-card">
