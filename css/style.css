@@ -22,9 +22,43 @@ body {
 	border-radius: 20px
 }
 
-.hero {
-	text-align: center;
-	margin-bottom: 30px
+.hero-header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+}
+
+.hero-logo{
+
+    width:300px;
+
+    max-width:90%;
+
+    margin-bottom:20px;
+
+    filter:
+        drop-shadow(0 0 20px rgba(255,255,255,.15));
+}
+
+.hero-header h1{
+
+    font-size:4rem;
+
+    font-weight:800;
+
+    letter-spacing:4px;
+
+    margin-bottom:15px;
+
+    text-transform:uppercase;
+}
+
+.subtitle{
+
+    color:rgba(255,255,255,.85);
+
+    font-size:1.15rem;
 }
 
 .directory-nav {
