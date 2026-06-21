@@ -19,10 +19,39 @@ function nav() {
 function render() {
     const d = document.getElementById('directory-content');
     d.innerHTML = '';
+
     data.categories.forEach(c => {
+
         if (current != 'all' && current != c.id) return;
+
         let h = `<h2 class="category-title">${c.name}</h2>`;
-        c.places.forEach(p => h += `<div class="place-card"><img src="${p.image}"><div class="place-info"><div class="place-name">${p.name}</div><p><b>Address:</b> ${p.address}</p><p><b>SLURL:</b> <a href="${p.slurl}">Visit</a></p><p><b>Community:</b> ${p.community}</p><p>${p.description}</p></div></div>`);
+
+        c.places.forEach(p => h += `
+            <div class="place-card">
+                <img src="${p.image}">
+                <div class="place-info">
+                    <div class="place-name">${p.name}</div>
+
+                    <p><b>Address:</b> ${p.address}</p>
+
+                    <p><b>SLURL:</b>
+                        <a href="${p.slurl}">
+                            Visit
+                        </a>
+                    </p>
+
+                    <p><b>Community:</b> ${p.community}</p>
+
+                    <p><b>Roleplay Contact:</b> ${p.contact}</p>
+
+                    <p><b>Telephone:</b> ${p.phone}</p>
+
+                    <p>${p.description}</p>
+
+                </div>
+            </div>
+        `);
+
         d.innerHTML += h;
     });
 }
