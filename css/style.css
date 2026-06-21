@@ -60,12 +60,16 @@ body {
 
     font-size:1.15rem;
 }
-.footer {
+.footer-container {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
+}
+
+.footer {
     color: rgba(255,255,255,.55);
-    display: block;
+    text-align: center;
 }
 .directory-nav {
 	display: flex;
